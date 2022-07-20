@@ -30,8 +30,9 @@ fn main() {
         activo: true,
         user_role: UserRole::BASIC,
         website: Website::INSTAGRAM(String::from("BDR")),
+        
     };
-
+    println!("");
     let access = hasAccess(user.user_role);
 }
 
